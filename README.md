@@ -1,3 +1,4 @@
+![GUI Design](https://github.com/user-attachments/assets/787f3077-f65c-4dca-87e1-41e8cc7dc085)
 256-Bit Password Generator with Easy Copy Options
 Overview
 This project is a 256-bit password generator designed to create secure, random passwords with ease. It allows users to:
