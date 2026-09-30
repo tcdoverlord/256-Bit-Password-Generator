@@ -1,43 +1,53 @@
-# 🔐 256-Bit Password Generator
+## 🎬 Demo
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/787f3077-f65c-4dca-87e1-41e8cc7dc085" alt="Password Generator UI" />
+  <img src="https://github.com/tcdoverlord/256-Bit-Password-Generator/blob/main/256passwordgenhtmlvid.gif" alt="256-Bit Password Generator Demo" width="900"/>
 </p>
 
-A lightweight browser-based password generation tool built with HTML, CSS, and JavaScript that creates secure 256-bit passwords with flexible copy and section management capabilities.
+---
 
-Designed to provide a simple and user-friendly interface for generating high-entropy passwords while allowing users to copy or regenerate specific password segments without affecting the entire credential.
+# 🔐 256-Bit Password Generator
+
+A lightweight, browser-based **256-bit password generator** built with **HTML, CSS, and JavaScript**. Generate strong random passwords directly in your browser with simple controls for copying the complete password or managing individual 8-character sections.
+
+The project is designed to be simple, fast, portable, and easy to use without a backend or installation.
 
 ---
 
 <p align="left">
-  <img src="https://img.shields.io/badge/HTML5-Frontend-orange" />
-  <img src="https://img.shields.io/badge/CSS3-Styling-blue" />
-  <img src="https://img.shields.io/badge/JavaScript-Logic-yellow" />
-  <img src="https://img.shields.io/badge/Security-Password%20Tool-green" />
-  <img src="https://img.shields.io/badge/Tool-Generator-success" />
-</p>
-
----
-
-## 🎬 Demo
-
-<p align="center">
-  <img src="256-bit-password-generator-demo.gif" alt="Password Generator Demo" width="900"/>
+  <img src="https://img.shields.io/badge/HTML5-Frontend-orange" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-Styling-blue" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-Logic-yellow" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Security-Password%20Tool-green" alt="Security Password Tool" />
+  <img src="https://img.shields.io/badge/Tool-Generator-success" alt="Generator Tool" />
 </p>
 
 ---
 
 # 🚀 Features
 
-- Generates secure 256-bit passwords
+- Generates 32-character passwords
+- Designed as a 256-bit password generator
 - High-entropy randomization
-- Fully browser-based (no backend required)
-- Copy full password instantly
-- Copy individual password sections
-- Replace specific password segments
+- Fully browser-based
+- No backend or server required
+- Copy the complete password
+- Copy individual 8-character password sections
+- Replace individual password sections
 - Works offline after download
 - No installation required
+- Responsive interface
+- Light and dark mode
+
+---
+
+# 🛡️ Security
+
+Password generation is performed locally in the browser, so the generated password does not need to be sent to a remote server.
+
+The generator uses browser cryptographic randomness for password generation and avoids relying on predictable application-level randomization.
+
+For important accounts, use unique passwords and store them in a reputable password manager.
 
 ---
 
@@ -46,6 +56,7 @@ Designed to provide a simple and user-friendly interface for generating high-ent
 - HTML5
 - CSS3
 - JavaScript (ES6)
+- Browser Web Crypto API
 
 ---
 
@@ -53,84 +64,8 @@ Designed to provide a simple and user-friendly interface for generating high-ent
 
 ## Option 1 — Open Locally
 
-1. Download or clone the repository  
+1. Download or clone the repository.
 2. Open:
 
 ```text
 256-Bit Password Generator with Easy Copy Options.html
-```
-
-3. Open in any modern browser  
-4. Click **Generate Password**  
-5. Use copy buttons for full or partial passwords  
-
----
-
-## Option 2 — Git Clone
-
-```bash
-git clone https://github.com/tcdoverlord/256-Bit-Password-Generator.git
-cd 256-Bit-Password-Generator
-```
-
-Then open the HTML file in your browser.
-
----
-
-# 📊 Example Output
-
-### Generated Password
-```
-X7d@9Kp!Lm3#Qz8... (256-bit output)
-```
-
-### Capabilities
-- Full password copy
-- Section-based copy
-- Regenerate individual segments
-
----
-
-# 📂 Project Structure
-
-```
-256-Bit-Password-Generator/
-│
-├── 256-Bit Password Generator with Easy Copy Options.html
-├── 256-bit-password-generator-demo.gif
-├── README.md
-└── LICENSE
-```
-
----
-
-# 💡 Use Cases
-
-- Secure password generation
-- Cybersecurity learning
-- Developer utilities
-- Credential management tools
-- Web development practice
-- Encryption awareness training
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-Feel free to open issues or submit pull requests.
-
----
-
-# 👨‍💻 Author
-
-**TCDOverLord**
-
-GitHub: https://github.com/tcdoverlord
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
